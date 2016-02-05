@@ -1,0 +1,28 @@
+{
+  "name": "locker",
+  "version": "1.0.0",
+  "description": "Rest API to manage articles in a locker.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amjedonline/locker.git"
+  },
+  "author": "Mohammed Amjed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amjedonline/locker/issues"
+  },
+  "homepage": "https://github.com/amjedonline/locker#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "mongoose": "^4.3.7",
+    "nodemon": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0"
+  }
+}
